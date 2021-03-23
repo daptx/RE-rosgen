@@ -134,7 +134,7 @@ Table 1. Site Measurements
 | Bankfull Depth Average | 0.4242 | DpthBf_Avg in CHaMP_Data_MFJD |
 | Bankfull Depth Maximum | 1.0001 | DpthBf_Max in CHaMP_Data_MFJD |
 | Valley Width | 96 | Cross-Sectional Valley Profile in RStudio |
-| Valley Depth | 2.002 | *calculation of MaxBFx2 |
+| Valley Depth | 2.0002 | *calculation of MaxBFx2 |
 | Stream/River Length | 385.2219 | banksLine attribute table in GRASS |
 | Valley Length | 413.6928 | valleysLine attribute table in GRASS |
 | Median Channel Material Particle Diameter | 42 | SubD50 in CHaMP_Data_MFJD |
