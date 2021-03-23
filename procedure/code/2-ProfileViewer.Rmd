@@ -101,8 +101,8 @@ ggplot(CrossProf) +
        aes(x = Distance, y = Elevation, color = Elevation) +
        geom_point() + # Point chosen here to allow easier determining of the width (points are horizontally spaced by 1 meter)
        geom_hline(yintercept = MaxBFx2Elev) +
-       xlim(200,280) + # Sets the x-axis limits. Adjust this value as you zoom in to the correct area.
-       ylim(1102,1105) + # Sets the y-axis limits. Adjust this value as you zoom in to the correct area.
+       xlim(100,400) + # Sets the x-axis limits. Adjust this value as you zoom in to the correct area.
+       ylim(1020,1060) + # Sets the y-axis limits. Adjust this value as you zoom in to the correct area.
        scale_color_gradient(low = "green", high = "brown") +
        labs(x = "Distance along the transect (m)", y = "Elevation (masl)", title = "Determining the Flood-Prone Width")
 
