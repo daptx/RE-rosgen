@@ -20,30 +20,29 @@ Replication Materials Available at: [Re-Rosgen](https://github.com/daptx/RE-rosg
 Created: `17 March 2021`
 Last Revised: `23 March 2021`
 
-## Abstract
+## Abstract + Motivation
 
-aim to replicate Kaspaerak et. al
+The classification of rivers and streams has served as a means to approach the long-standing discourse of understanding the dynamic physical processes that influence the patterns and characteristics of these features. The Rosgen Classification System (RCS), a stream-reach taxonomy commonly applied to streams/watersheds in North America, is a primary example of a standardized classification scheme that has been used to make streams more communicable and accessible across disciplines (geomorphology, conservation planning, engineering, so on so forth). Established in *A classification of natural rivers*, Rosgen (1994) created a classification hierarchy of 7 major stream type categories based on factors of entrenchment, gradient, width/depth ratio, and sinuosity. Each category was then iterated with sub-types, delineated by dominant channel material—pointing to a ‘final classification’.
 
-## Original Study Information
+In *The Blurred Lines between Form and Process: A Comparison of Stream Channel Classification Frameworks*, Kasprak et al. (2016) attempted to replicate and test the Rosgen Classification System (RCS), alongside 3 other classification frameworks. In their methodology, Kasprak et al. (2016) classified 33 Columbia Habitat Monitoring Program (CHaMP) reaches in the Middle Fork John Day Basin (MFJD; located in Oregon) using Levels I & II of the RCS, in addition to using 10 and 0.1-meter resolution DEMS and 1-meter resolution aerial imagery (implying the use of LiDAR).
 
-## Analytical Plan
+Our study aims to replicate the results of Kasparak et al. (2016)—a replication of the Rosgen Classification in and of itself—using open source GIS (GRASS & QGIS) and statistical software (RStudio). Our replication uses both Columbia Habitat Monitoring Program (CHaMPs) data and the 1-meter resolution DEM LiDAR data for the study region to derive Level I & II classifications for a randomly assigned reach in the John Day River Watershed. While our software diverges from the original study, our end-goal remains to see whether these different methods create a synonymous stream type identification to Kasparak et al. (2016).
 
 ### Sampling Plan and Data Description
+
+For this study, we were each assigned a random site from the original  (Kasprak et al) to analyze. My designated stream reach was loc_id = 3.
 *figure a. John Day Watershed Extent & CHaMP Sites Selected by Kasprak et al (2016)*
 ![](assets/sample.png)
 
-### Variables
-
-Level I Variables:
-1. Entrenchment
-2. Width/Depth Ratio
-3. Sinuosity
-
-Level II Variables:
-1. Slope Range
-2. Channel Materials
-
 ## Materials and Procedure
+For this replication study, we utilized both GRASS and RStudio, following a workflow prepared and edited by Zach Hilgendorg—Geography Ph.D. Student @ ASU and Joesph Holler—Geography Professor @ Middlebury College.
+
+The detailed procedures and protocols for our GRASS analysis can be found [here](https://github.com/daptx/RE-rosgen/blob/main/procedure/protocols/1-Research_Protocol_GRASS.pdf), while instructions for RStudio can be found [here](https://github.com/daptx/RE-rosgen/blob/main/procedure/protocols/3-Classifying.pdf), along with the respective [code](assets/2-ProfileViewer.Rmd)
+Note: In order to complete this analysis on a MacOS device, please install [The Unarchiver](https://theunarchiver.com/) to access the [John Day Watersheds data](assets/JohnDayWShed) and [XCode](https://developer.apple.com/download/more/?=for%20Xcode) to download needed tools in GRASS.
+
+Models used in GRASS:
+[Center Line Calculations](assets/center_line_length.gxm)
+[Visualization of Study Area](assets/visualize.gxm)
 
 ## Replication Results
 
