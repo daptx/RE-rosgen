@@ -47,7 +47,7 @@ Models used in GRASS:
 
 ## Replication Results
 
-####**Figures:**
+###**Figures:**
 
 ![](assets/shaded-elevation.png)
 ![](assets/slope.png)
@@ -57,7 +57,7 @@ Models used in GRASS:
 ![](assets/cross-section.png)
 
 
-####**Tables:**
+###**Tables:**
 
 Table 1. Site Measurements
 | Variable | Value | Source |
