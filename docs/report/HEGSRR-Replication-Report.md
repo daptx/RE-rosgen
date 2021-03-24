@@ -30,7 +30,8 @@ Our study aims to replicate the results of Kasparak et al. (2016)—a replicatio
 
 ### Sampling Plan and Data Description
 
-For this study, we were each assigned a random site from the original  (Kasprak et al) to analyze. My designated stream reach was loc_id = 3.
+For this study, we were each assigned a random site from the original study to analyze. My designated stream reach was loc_id = 3.
+
 *figure a. John Day Watershed Extent & CHaMP Sites Selected by Kasprak et al (2016)*
 ![](assets/sample.png)
 
@@ -46,7 +47,7 @@ Models used in GRASS:
 
 ## Replication Results
 
-Figures:
+####**Figures:**
 
 ![](assets/shaded-elevation.png)
 ![](assets/slope.png)
@@ -56,7 +57,7 @@ Figures:
 ![](assets/cross-section.png)
 
 
-Tables:
+####**Tables:**
 
 Table 1. Site Measurements
 | Variable | Value | Source |
