@@ -36,12 +36,13 @@ For this study, we were each assigned a random site from the original study to a
 ![](assets/sample.png)
 
 ## Materials & Procedure
-For this replication study, we utilized both GRASS and RStudio, following a workflow prepared and edited by Zach Hilgendorg—Geography Ph.D. Student @ ASU and Joesph Holler—Geography Professor @ Middlebury College.
+For this replication study, we utilized both GRASS and RStudio, following a workflow prepared and edited by Zach Hilgendorf—Geography Ph.D. Student @ ASU and Joesph Holler—Geography Professor @ Middlebury College.
 
-The detailed procedures and protocols for our GRASS analysis can be found [here](https://github.com/daptx/RE-rosgen/blob/main/procedure/protocols/1-Research_Protocol_GRASS.pdf), while instructions for RStudio can be found [here](https://github.com/daptx/RE-rosgen/blob/main/procedure/protocols/3-Classifying.pdf), along with the respective [code](assets/2-ProfileViewer.Rmd)
+The detailed procedures and protocols for our GRASS analysis can be found [here](https://github.com/daptx/RE-rosgen/blob/main/procedure/protocols/1-Research_Protocol_GRASS.pdf), while instructions for RStudio can be found [here](https://github.com/daptx/RE-rosgen/blob/main/procedure/protocols/3-Classifying.pdf), along with the respective [code](assets/2-ProfileViewer.Rmd) created by Zach Hilgendorf
+
 Note: In order to complete this analysis on a MacOS device, please install [The Unarchiver](https://theunarchiver.com/) to access the [John Day Watersheds data](assets/JohnDayWShed) and [XCode](https://developer.apple.com/download/more/?=for%20Xcode) to download needed tools in GRASS.
 
-Models used in GRASS:
+Models used in GRASS produced by Joe Holler:
 [Center Line Calculations](assets/center_line_length.gxm) and [Visualization of Study Area](assets/visualize.gxm)
 
 The classification scheme we followed (fulfilling Levels I & II):
@@ -99,7 +100,9 @@ Table 3. Rosgen Level II Classification
 
 ## Discussion
 
-## Conclusion
+## Conclusion & Implications
+
+In this case, the results of my analysis ended up aligning with those of Kasprak et al. (2016).
 
 ## References
 
@@ -112,3 +115,5 @@ This template was developed by Peter Kedron and Joseph Holler with funding suppo
 Camerer, C. F., A. Dreber, E. Forsell, T.-H. Ho, J. Huber, M. Johannesson, M. Kirchler, J. Almenberg, A. Altmejd, T. Chan, E. Heikensten, F. Holzmeister, T. Imai, S. Isaksson, G. Nave, T. Pfeiffer, M. Razen, and H. Wu. 2016. Evaluating replicability of laboratory experiments in economics. Science 351 (6280):1433–1436. https://www.sciencemag.org/lookup/doi/10.1126/science.aaf0918.
 
 Camerer, C. F., A. Dreber, F. Holzmeister, T.-H. Ho, J. Huber, M. Johannesson, M. Kirchler, G. Nave, B. A. Nosek, T. Pfeiffer, A. Altmejd, N. Buttrick, T. Chan, Y. Chen, E. Forsell, A. Gampa, E. Heikensten, L. Hummer, T. Imai, S. Isaksson, D. Manfredi, J. Rose, E.-J. Wagenmakers, and H. Wu. 2018. Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. Nature Human Behaviour 2 (9):637–644. http://www.nature.com/articles/s41562-018-0399-z.
+
+work time: ~15 hours (still counting)
