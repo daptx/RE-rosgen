@@ -133,27 +133,26 @@ Table 1. Site Measurements
 | Bankfull Width | 19.1587 | BfWdth_Avg in CHaMP_Data_MFJD |
 | Bankfull Depth Average | 0.4242 | DpthBf_Avg in CHaMP_Data_MFJD |
 | Bankfull Depth Maximum | 1.0001 | DpthBf_Max in CHaMP_Data_MFJD |
-| Valley Width | 96 | Cross-Sectional Valley Profile in RStudio |
+| Valley Width | 96 | Flood Prone-Width Graph in RStudio |
 | Valley Depth | 2.0002 | *calculation of MaxBFx2 |
 | Stream/River Length | 385.2219 | banksLine attribute table in GRASS |
 | Valley Length | 413.6928 | valleysLine attribute table in GRASS |
 | Median Channel Material Particle Diameter | 42 | SubD50 in CHaMP_Data_MFJD |
 
 Table 2. Rosgen Level I Classification
-| Criteria | Value |
+| Criteria | Value | Derivation |
 | :-: | :-: |
-| Entrenchment Ratio | -- |
-| Width / Depth Ratio | -- |
-| Sinuosity | -- |
-| Level I Stream Type | -- |
+| Entrenchment Ratio | 5.0108 | valley width / bankfull width from Table 1 |
+| Width / Depth Ratio | 19.1568 | bankfull width / bankfull average depth from Table 1 |
+| Sinuosity | 1.3072 | Sin in CHaMP_Data_MFJD, valleyLine length from GRASS appears 'off' |
+| Level I Stream Type | C |
 
 Table 3. Rosgen Level II Classification
-| Criteria | Value |
+| Criteria | Value | Derivation |
 | :-: | :-: |
-| Slope | .00257 |
-| Channel Material | Gravel |
-| Level II Stream Type | -- |
-
+| Slope | .00257 | ΔElevation/ΔDistance in the Longitudinal Profile |
+| Channel Material | Gravel | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
+| Level II Stream Type | C4b | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
 
 ## Unplanned Deviations from the Protocol
 
