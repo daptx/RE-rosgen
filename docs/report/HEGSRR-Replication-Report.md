@@ -44,12 +44,13 @@ Note: In order to complete this analysis on a MacOS device, please install [The 
 Models used in GRASS:
 [Center Line Calculations](assets/center_line_length.gxm) and [Visualization of Study Area](assets/visualize.gxm)
 
-The classification scheme we followed (fulfilling Levels I & II)
+The classification scheme we followed (fulfilling Levels I & II):
 ![](assets/rosgen-class.png)
 
 ## Replication Results
 
-*Figures:*
+**Figures:**
+
 ![](assets/shaded-elevation.png)
 ![](assets/slope.png)
 ![](assets/bank-centerline.png)
@@ -58,7 +59,8 @@ The classification scheme we followed (fulfilling Levels I & II)
 ![](assets/cross-section.png)
 
 
-*Tables:*
+**Tables:**
+
 Table 1. Site Measurements
 | Variable | Value | Source |
 | :-: | :-: | :-: |
