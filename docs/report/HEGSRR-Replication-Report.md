@@ -141,7 +141,7 @@ Table 1. Site Measurements
 
 Table 2. Rosgen Level I Classification
 | Criteria | Value | Derivation |
-| :-: | :-: |
+| :-: | :-: | :-: |
 | Entrenchment Ratio | 5.0108 | valley width / bankfull width from Table 1 |
 | Width / Depth Ratio | 19.1568 | bankfull width / bankfull average depth from Table 1 |
 | Sinuosity | 1.3072 | Sin in CHaMP_Data_MFJD, valleyLine length from GRASS appears 'off' |
@@ -149,7 +149,7 @@ Table 2. Rosgen Level I Classification
 
 Table 3. Rosgen Level II Classification
 | Criteria | Value | Derivation |
-| :-: | :-: |
+| :-: | :-: | :-: |
 | Slope | .00257 | ΔElevation/ΔDistance in the Longitudinal Profile |
 | Channel Material | Gravel | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
 | Level II Stream Type | C4b | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
