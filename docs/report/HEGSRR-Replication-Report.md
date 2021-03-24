@@ -47,7 +47,7 @@ Models used in GRASS:
 
 ## Replication Results
 
-###**Figures:**
+####Figures:**
 
 ![](assets/shaded-elevation.png)
 ![](assets/slope.png)
@@ -57,7 +57,7 @@ Models used in GRASS:
 ![](assets/cross-section.png)
 
 
-###**Tables:**
+####Tables:
 
 Table 1. Site Measurements
 | Variable | Value | Source |
@@ -76,7 +76,7 @@ Table 2. Rosgen Level I Classification
 | :-: | :-: | :-: |
 | Entrenchment Ratio | 5.0108 | valley width / bankfull width from Table 1 |
 | Width / Depth Ratio | 45.1643 | bankfull width / bankfull average depth from Table 1 |
-| Sinuosity | 1.3072 | Sin in CHaMP_Data_MFJD, valleyLine length from GRASS appears 'off' b/c of buffer circumference |
+| Sinuosity | 1.3072 | Sin in CHaMP_Data_MFJD |
 | Level I Stream Type | C | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
 
 
@@ -88,6 +88,10 @@ Table 3. Rosgen Level II Classification
 | Level II Stream Type | C4b | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
 
 ## Unplanned Deviations from the Protocol
+
+1. Slope was re-calculated from from the the longitudinal profile (ΔElevation/ΔDistance). In the original RStudio code, the slope was calculated as an average value based on the points derived from the reach centerline. However, due to digitizing errors, there were slope outliers (note the spike in slope ~330 m in the Longitudinal Profile of Extracted Reach graph) that skewed the slope average of the profile. By re-calculating slope using the starting and end points, this helped reduce digitizing uncertainty and yielded a more optimal/applicable value (.00257, as opposed to 1.2621).
+2. Sinuosity was derived from the actual CHaMPs attribute table as opposed to using the formula channel length/valley length. When moving through the replication, my buffer was noticeably larger than other classmates and my cross-sectional profile appears to have taken on a shape where slightly higher banks develop surrounding a lower valley as seen [here](https://www.researchgate.net/figure/Natural-levees-exist-along-most-perennial-channels-subject-to-periodic-overbank-flooding_fig4_255619286), both of which could have influenced the valley length derived in GRASS.
+- With this mind, the value I used was 1.3072 instead .9312 (the value that would've been produced using the values in Table 1)——which ended up altering the stream type, but ultimately made the most sense. The original sinuosity (.9312) and width / depth ratio (45.1643) would've placed my stream type as D (multiple channels), which wouldn't make sense based on the raster layers for my site—there's evidently a single-thread channel.
 
 ## Discussion
 
