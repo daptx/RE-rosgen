@@ -42,13 +42,14 @@ The detailed procedures and protocols for our GRASS analysis can be found [here]
 Note: In order to complete this analysis on a MacOS device, please install [The Unarchiver](https://theunarchiver.com/) to access the [John Day Watersheds data](assets/JohnDayWShed) and [XCode](https://developer.apple.com/download/more/?=for%20Xcode) to download needed tools in GRASS.
 
 Models used in GRASS:
-[Center Line Calculations](assets/center_line_length.gxm)
-[Visualization of Study Area](assets/visualize.gxm)
+[Center Line Calculations](assets/center_line_length.gxm) and [Visualization of Study Area](assets/visualize.gxm)
+
+The classification scheme we followed (fulfilling Levels I & II)
+![](assets/rosgen-class.png)
 
 ## Replication Results
 
-####Figures:**
-
+*Figures:*
 ![](assets/shaded-elevation.png)
 ![](assets/slope.png)
 ![](assets/bank-centerline.png)
@@ -57,8 +58,7 @@ Models used in GRASS:
 ![](assets/cross-section.png)
 
 
-####Tables:
-
+*Tables:*
 Table 1. Site Measurements
 | Variable | Value | Source |
 | :-: | :-: | :-: |
@@ -77,15 +77,17 @@ Table 2. Rosgen Level I Classification
 | Entrenchment Ratio | 5.0108 | valley width / bankfull width from Table 1 |
 | Width / Depth Ratio | 45.1643 | bankfull width / bankfull average depth from Table 1 |
 | Sinuosity | 1.3072 | Sin in CHaMP_Data_MFJD |
-| Level I Stream Type | C | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
+| Level I Stream Type | C | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994) |
 
 
 Table 3. Rosgen Level II Classification
 | Criteria | Value | Derivation |
 | :-: | :-: | :-: |
-| Slope | .00257 | ΔElevation/ΔDistance in the (Longitudinal Profile)[RE-Rosgen/data/derived/public/longprof.txt] |
-| Channel Material | Gravel | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
-| Level II Stream Type | C4b | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994)[https://linkinghub.elsevier.com/retrieve/pii/0341816294900019] |
+| Slope | .00257 | ΔElevation/ΔDistance in the Longitudinal Profile |
+| Channel Material | Gravel | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994) |
+| Level II Stream Type | C4b | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994) |
+
+
 
 ## Unplanned Deviations from the Protocol
 
