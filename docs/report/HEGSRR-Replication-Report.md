@@ -41,6 +41,9 @@ Last Revised: `23 March 2021`
 Figures:
 
 ![](assets/shaded-elevation.png)
+![](assets/slope.png)
+![](assets/bank-centerline.png)
+![](assets/valley-centerline.png)
 ![](assets/long-profile.png)
 ![](assets/cross-section.png)
 
