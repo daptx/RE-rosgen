@@ -39,8 +39,7 @@ Last Revised: `23 March 2021`
 ## Replication Results
 
 Figures:
-*figure a. map of the study site shaded elevation*
-![](assets/shaded-elevation.png)
+<center> *figure a. map of the study site shaded elevation* </center>
 *figure e. longitudinal profile graph with elevation & slope*
 ![](assets/long-profile.png)
 *figure f. cross-sectional profile graph*
