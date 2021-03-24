@@ -22,6 +22,8 @@ Last Revised: `23 March 2021`
 
 ## Abstract
 
+
+
 ## Original Study Information
 
 ## Analytical Plan
@@ -36,7 +38,16 @@ Last Revised: `23 March 2021`
 
 ## Replication Results
 
-Tables to Include:
+Figures:
+
+![](assets/shaded-elevation.png)
+*figure a. map of the study site shaded elevation
+![](assets/long-profile.png)
+*figure e. longitudinal profile graph with elevation & slope*
+![](assets/cross-section.png)
+*figure f. cross-sectional profile graph*
+
+Tables:
 
 Table 1. Site Measurements
 | Variable | Value | Source |
@@ -45,7 +56,7 @@ Table 1. Site Measurements
 | Bankfull Depth Average | 0.4242 | DpthBf_Avg in CHaMP_Data_MFJD |
 | Bankfull Depth Maximum | 1.0001 | DpthBf_Max in CHaMP_Data_MFJD |
 | Valley Width | 96 | Flood Prone-Width Graph in RStudio |
-| Valley Depth | 2.0002 | *calculation of MaxBFx2 |
+| Valley Depth | 2.0002 | calculation of MaxBFx2 |
 | Stream/River Length | 385.2219 | banksLine attribute table in GRASS |
 | Valley Length | 413.6928 | valleysLine attribute table in GRASS |
 | Median Channel Material Particle Diameter | 42 | SubD50 in CHaMP_Data_MFJD |
