@@ -22,17 +22,26 @@ Last Revised: `23 March 2021`
 
 ## Abstract
 
-
+aim to replicate Kaspaerak et. al
 
 ## Original Study Information
 
 ## Analytical Plan
 
 ### Sampling Plan and Data Description
+*figure a. John Day Watershed Extent & CHaMP Sites Selected by Kasprak et al (2016)*
+![](assets/sample.png)
 
 ### Variables
 
-### Analytical Specification
+Level I Variables:
+1. Entrenchment
+2. Width/Depth Ratio
+3. Sinuosity
+
+Level II Variables:
+1. Slope Range
+2. Channel Materials
 
 ## Materials and Procedure
 
