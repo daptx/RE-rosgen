@@ -81,6 +81,7 @@ Table 2. Rosgen Level I Classification
 | Width / Depth Ratio | 45.1643 | bankfull width / bankfull average depth from Table 1 |
 | Sinuosity | 0.9312 | stream length/valley length from Table 1 |
 | Level I Stream Type | C | The Key to the Rosgen Classification of Natural Rivers (Rosgen, 1994) |
+
 NOTE: Although sinuosity > 1.2, width/depth & entrenchment ratios lined up with the C-type stream classification. The valley length > bankfull length caused the lower than anticipated sinuosity value, which is an abnormality addressed in **Unplanned Deviations from the Protocol**.  
 
 Table 3. Rosgen Level II Classification
