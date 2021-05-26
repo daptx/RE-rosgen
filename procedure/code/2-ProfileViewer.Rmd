@@ -92,6 +92,8 @@ MaxBFx2Elev <- StreamElev + MaxBFx2 # This adds the elevation of the bottom of t
 
 ggplot(CrossProf) +
        aes(x = Distance, y = Elevation, color = Elevation) +
+     # xlim(175,325) + 
+     # ylim(1030,1060) +
        geom_line() +
        geom_hline(yintercept = MaxBFx2Elev) + # This adds a horizontal line at a prescribed location. In this case, we are drawing a line at twice the maximum bankfull depth.
        scale_color_gradient(low = "green", high = "brown") +
